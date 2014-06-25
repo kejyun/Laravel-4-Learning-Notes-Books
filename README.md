@@ -4,6 +4,6 @@
 
 Blog : http://blog.kejyun.com
 
-Facebook : http://fb.me/kejyun.hong.3
+Facebook : http://fb.me/kejyunTaiwan
 
 
