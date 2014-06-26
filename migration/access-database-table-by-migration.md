@@ -139,4 +139,5 @@ class ChangeUsersNameColumn extends Migration {
 使用`Schema::table()`去對資料表進行操作，並用`$table->renameColumn()`方法去變更資料表中的欄位名稱
 
 ## 參考資料
+* [KeJyun學習日誌: Laravel 4 Migrate介紹](http://blog.kejyun.com/2013/07/Laravel4-Migrate-Introduction.html)
 * [Schema Builder : Laravel - The PHP Framework For Web Artisans.](http://laravel.com/docs/schema)
