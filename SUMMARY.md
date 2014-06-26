@@ -6,6 +6,8 @@
    * [安裝 Laravel](install/install-laravel4-on-ubuntu-1404.md)
    * [佈署 Laravel 程式](install/deploy-laravel4-application.md)
 * [Migration](migration/README.md)
+   * [新增 Migration](migration/add_new_migration_from_artisan.md)
+   * [執行 Migration](migration/process-migration.md)
 * [學習資源](resource/README.md)
    * [官方](resource/official.md)
    * [社群](resource/community-document.md)

@@ -50,6 +50,7 @@ GIT_WORK_TREE=$work_tree git checkout -f
 cd $work_tree
 composer install
 composer update
+php artisan migrate --force
 ```
 *work_tree為網站的根目錄*
 
