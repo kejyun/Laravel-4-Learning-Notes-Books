@@ -9,7 +9,7 @@
 ### 使用 composer 指令安裝 laravel 4.2
 
 ```shell
-composer create-project laravel/laravel custom_laravel_folder --prefer-dist
+$ composer create-project laravel/laravel custom_laravel_folder --prefer-dist
 ```
 
 *指令格式*
@@ -69,7 +69,7 @@ $ sudo chmod -R 775 /home/kejyun/laravel/app/storage
 # Let's play Laravel 4！！
 
 
-## 資料來源
+## 參考資料
 * [KeJyun學習日誌: 在 Ubuntu 14.04 安裝 Laravel 4.2](http://blog.kejyun.com/2014/06/Install-laravel4.2-on-ubuntu14.04.html)
 * [Laravel - The PHP Framework For Web Artisans.](http://laravel.com/docs/installation)
 * [php - My composer won't update completely with Laravel 4 it gets stuck with artisan - Stack Overflow](http://stackoverflow.com/questions/19775012/my-composer-wont-update-completely-with-laravel-4-it-gets-stuck-with-artisan?answertab=votes#tab-top)

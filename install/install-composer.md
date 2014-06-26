@@ -39,6 +39,6 @@ $ composer
 
 ---
 
-## 資料來源
+## 參考資料
 * [KeJyun學習日誌: 在 Ubuntu14.04 安裝 composer](http://blog.kejyun.com/2014/06/Install-laravel4.2-on-ubuntu14.04.html)
 * [Composer Download](https://getcomposer.org/download/)
