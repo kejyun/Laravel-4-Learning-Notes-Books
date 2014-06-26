@@ -79,5 +79,7 @@ git push origin master
 
 ## 參考資料
 * [KeJyun學習日誌: 使用 git 佈署 Laravel 4 程式](http://blog.kejyun.com/2014/06/Using-git-to-deplay-laravel4-application.html)
+* [Deploying a Laravel website with git](http://marcanuy.com/en/homepage/36-general/technology/18-deploying-a-laravel-website-with-git)
+* [php - Repository deployment and Composer : what workflow? - Stack Overflow](http://stackoverflow.com/questions/14498560/repository-deployment-and-composer-what-workflow)
 
 
