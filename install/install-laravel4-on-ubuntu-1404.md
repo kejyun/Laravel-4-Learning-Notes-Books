@@ -74,3 +74,4 @@ $ sudo chmod -R 775 /home/kejyun/laravel/app/storage
 * [Laravel - The PHP Framework For Web Artisans.](http://laravel.com/docs/installation)
 * [php - My composer won't update completely with Laravel 4 it gets stuck with artisan - Stack Overflow](http://stackoverflow.com/questions/19775012/my-composer-wont-update-completely-with-laravel-4-it-gets-stuck-with-artisan?answertab=votes#tab-top)
 * [php - composer laravel create project - Stack Overflow](http://stackoverflow.com/questions/18862160/composer-laravel-create-project)
+* [Laracasts : Installation](https://laracasts.com/series/laravel-from-scratch/episodes/1)
