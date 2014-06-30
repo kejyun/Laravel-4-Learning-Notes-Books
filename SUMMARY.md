@@ -9,6 +9,8 @@
    * [新增 Migration](migration/add_new_migration_from_artisan.md)
    * [編輯 Migration](migration/access-database-table-by-migration.md)
    * [執行 Migration](migration/process-migration.md)
+* [安全性 (Security)](laravel-security/README)
+   * [CORS (跨來源資源共享)](laravel-security/laravel-security-cors.md)
 * [學習資源](resource/README.md)
    * [官方](resource/official.md)
    * [社群](resource/community-document.md)
