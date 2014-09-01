@@ -4,6 +4,7 @@
 * [Laravel Book](http://laravelbook.com/)
 * [Web development, design, and other nerdy topics! | Dayle Rees](http://daylerees.com/codebright)
 * [Laravel-簡潔、優雅的PHP開發框架(PHP Web Framework)。 - Laravel中文網Laravel中國社區](http://www.golaravel.com/)
+* [Simple Laravel ♥ Scotch](http://scotch.io/series/simple-laravel)
 
 
 # 社群
