@@ -6,4 +6,4 @@ Blog : http://blog.kejyun.com
 
 Facebook : http://fb.me/kejyunTaiwan
 
-GitBook : http://laravel-book.kejyun.com/
+GitBook : http://laravel4-book.kejyun.com/
