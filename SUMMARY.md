@@ -19,5 +19,5 @@
    * [教學影片](resource/learning-video.md)
    * [編輯開發](resource/editor-tool.md)
    * [成功案例](resource/laravel-case.md)
-   * learning-sites
+   * [learning-sites](learning-sites.md)
 
