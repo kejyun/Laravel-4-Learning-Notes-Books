@@ -18,7 +18,6 @@
    * [服務工具](resource/laravel-service.md)
    * [教學影片](resource/learning-video.md)
    * [教學網站](resource/learnng-sites.md)
-   * [學習網站](learning-sites.md)
    * [編輯開發](resource/editor-tool.md)
    * [成功案例](resource/laravel-case.md)
 
