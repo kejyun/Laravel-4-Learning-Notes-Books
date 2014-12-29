@@ -5,6 +5,7 @@
    * [安裝 Nginx](install/install-nginx-for-laravel.md)
    * [安裝 Laravel](install/install-laravel4-on-ubuntu-1404.md)
    * [佈署 Laravel 程式](install/deploy-laravel4-application.md)
+   * [Homestead 測試環境](install/homestead-laravel4-environment.md)
 * [Migration (資料庫版本控制)](migration/README.md)
    * [新增 Migration](migration/add_new_migration_from_artisan.md)
    * [編輯 Migration](migration/access-database-table-by-migration.md)
