@@ -12,7 +12,7 @@
 
 > Virtualbox 4.3
 
-# 安裝 VirtualBox
+## 安裝 VirtualBox
 
 從[VirtualBox官方網站](https://www.virtualbox.org/wiki/Linux_Downloads)下載並安裝VirtualBox
 
@@ -25,7 +25,7 @@ $ sudo dpkg -i  virtualbox-4.3_4.3.20-96996~Ubuntu~raring_amd64.deb
 
 ![下載Virtualbox](http://3.bp.blogspot.com/-duCO50hJkII/VKFI2hGBLGI/AAAAAAAADdU/ICI8n6Nkgx8/s1600/Homestead-install-virtualbox.png)
 
-# 安裝 Vagrant
+## 安裝 Vagrant
 
 從[Vagrant官方網站](http://www.vagrantup.com/downloads.html)下載並安裝
 
@@ -34,7 +34,7 @@ $ wget https://dl.bintray.com/mitchellh/vagrant/vagrant_1.7.1_x86_64.deb
 $ sudo dpkg -i vagrant_1.7.1_x86_64.deb
 ```
 
-# 使用Git複製Laravel homestead並建立Homestead設定檔
+## 使用Git複製Laravel homestead並建立Homestead設定檔
 ```shell
 $ git clone https://github.com/laravel/homestead.git Homestead
 $ cd Homestead
@@ -42,12 +42,12 @@ $ cd Homestead
 ```
 > Ubuntu目前(2014/12/29)尚未支援使用Composer下載並安裝Homestead的方式，所以只能先用Git下載的方式去建立Homestead
 
-# 建立ssh key
+## 建立ssh key
 ```shell
 $ ssh-keygen -t rsa -C "kejyun@homestead"
 ```
 
-# 編輯Homestead設定檔
+## 編輯Homestead設定檔
 ```shell
 $ vim  ~/.homestead/Homestead.yaml
 ```
@@ -58,14 +58,14 @@ keys:
     - ~/.ssh/id_rsa
 ```
 
-## 設定本機程式碼路徑對應到測試環境的路徑
+### 設定本機程式碼路徑對應到測試環境的路徑
 
 > map：本機路徑
 
 > to：Vagrant測試機路徑
 
 
-### 程式路徑
+#### 程式路徑
 
 ```
 folders:
@@ -75,7 +75,7 @@ folders:
       to: /home/vagrant/laravel42
 ```
 
-### 網站路徑
+#### 網站路徑
 
 ```
 sites:
@@ -88,7 +88,7 @@ sites:
 ![Homestead設定檔](http://3.bp.blogspot.com/-AaT61pAN6d4/VKFUCA6N6PI/AAAAAAAADdk/xBV-hIObVDM/s1600/Homestead-setting.png)
 
 
-# 設定hosts對應本機網址到Vagrant
+## 設定hosts對應本機網址到Vagrant
 
 ```shell
 $ sudo vim /etc/hosts
@@ -101,7 +101,7 @@ $ sudo vim /etc/hosts
 
 > IP位址為Homestead.yaml設定中的ip設定值，homestead.app及kejyun.app則是參照設定檔中的sites map設定有哪些則加進去hosts設定檔中
 
-# 啟動Vagrant
+## 啟動Vagrant
 
 ```shell
 ~/Homestead$vagrant up
@@ -117,7 +117,7 @@ $ sudo vim /etc/hosts
 ![Homestead測試](http://3.bp.blogspot.com/-YJqaIj2I9nk/VKFjhkkpcuI/AAAAAAAADd8/FGK0oxXc5WA/s1600/Homestead-test.png)
 
 
-# 備註
+## 備註
 若要關閉Homestead虛擬機器，則可以使用下列指令關閉
 
 ```shell
