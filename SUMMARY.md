@@ -1,5 +1,6 @@
 # Summary
 
+* [Introduction](README.md)
 * [安裝](install/README.md)
    * [安裝 Composer](install/install-composer.md)
    * [安裝 Nginx](install/install-nginx-for-laravel.md)
