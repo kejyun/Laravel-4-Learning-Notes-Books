@@ -13,6 +13,8 @@
    * [執行 Migration](migration/process-migration.md)
 * [安全性 (Security)](laravel-security/README)
    * [CORS (跨來源資源共享)](laravel-security/laravel-security-cors.md)
+* [單元測試 (Unit Test)](laravel-test/README)
+   * [安裝 PHP Unit](laravel-test/laravel-test-install-phpunit.md)
 * [學習資源](resource/README.md)
    * [官方](resource/official.md)
    * [社群](resource/community-document.md)
