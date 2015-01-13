@@ -38,9 +38,9 @@ $ vendor/bin/phpunit
 
 ### PHP Unit 執行規則
  - 若未指定測試檔，則會執行所有在測試目錄及子目錄的所有測試
-  - `.app/tests/`
-  - `.app/tests/othertest`
-  - `.app/tests/othertest/sometest`
+  - `./app/tests/`
+  - `./app/tests/othertest`
+  - `./app/tests/othertest/sometest`
  - 檔案名稱與類別名稱必須以Test做為結尾
   - e.g. MyTest  =>  MyTest.php
  - 測試檔案中的測試函式必須要以test為開頭才會進行測試
