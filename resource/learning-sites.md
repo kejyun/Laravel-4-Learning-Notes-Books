@@ -1,7 +1,10 @@
 # 教學網站
 
-<<<<<<< HEAD
+## 英文
 * [Web development, design, and other nerdy topics! | Dayle Rees](http://daylerees.com/codebright)
 * [Laravel Book](http://laravelbook.com/)
-=======
->>>>>>> f4b7c100f9c411960093ac77b0db1219a0c01126
+* [Laravel Recipes](http://laravel-recipes.com/)
+
+
+# 中文
+* [Laravel 初體驗 - 實作 Blog 系統 | Laravel Dojo](http://www.laravel-dojo.com/courses/laravel4-first-class)

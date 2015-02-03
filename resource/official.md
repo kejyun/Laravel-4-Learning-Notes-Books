@@ -10,3 +10,8 @@
 # 套件 (Package)
 
 * [Laravel Packages Registry](http://registry.autopergamene.eu/)
+* [Packalyst :: Packages for Laravel](http://packalyst.com/)
+
+# 作者
+
+* [Taylor Otwell | Twitter](https://twitter.com/taylorotwell)
