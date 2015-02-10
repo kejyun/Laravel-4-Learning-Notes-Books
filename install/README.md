@@ -1,5 +1,7 @@
 # 安裝
 
+在這裡會介紹如何建置 Laravel 的開發環境
+
 ## 安裝 Composer
 
 * [KeJyun學習日誌: 在 Ubuntu14.04 安裝 composer](http://blog.kejyun.com/2014/06/Install-laravel4.2-on-ubuntu14.04.html)
