@@ -12,6 +12,7 @@
    * [編輯 Migration](migration/access-database-table-by-migration.md)
    * [執行 Migration](migration/process-migration.md)
 * [快取 (Cache)](laravel-cache/README.md)
+  * [清除快取](laravel-cache/laravel-cache-clear-cache.md)
 * [安全性 (Security)](laravel-security/README.md)
    * [CORS (跨來源資源共享)](laravel-security/laravel-security-cors.md)
 * [單元測試 (Unit Test)](laravel-test/README.md)
