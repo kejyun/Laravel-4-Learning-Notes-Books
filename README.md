@@ -1,4 +1,4 @@
-# Laravel 4 學習足跡
+# Laravel 4 學習筆記
 
 作者 : KeJyun
 

@@ -1,0 +1,11 @@
+{
+  "plugins": ["disqus","ga"],
+  "pluginsConfig": {
+    "disqus": {
+      "shortName": "kejyun-laravel4-book"
+    },
+    "ga": {
+      "token": "UA-31063691-10"
+    }
+  }
+}
