@@ -80,3 +80,4 @@ var_dump($content);
 
 ## 參考資料
 * [Call a controller in Laravel 4](http://stackoverflow.com/questions/15205239/call-a-controller-in-laravel-4)
+* [Call controller from route closure | Laravel-Tricks.com](http://laravel-tricks.com/tricks/call-controller-from-route-closure)
