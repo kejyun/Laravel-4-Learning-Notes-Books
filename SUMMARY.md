@@ -11,6 +11,8 @@
   * [新增 Migration](migration/add_new_migration_from_artisan.md)
   * [編輯 Migration](migration/access-database-table-by-migration.md)
   * [執行 Migration](migration/process-migration.md)
+* [Controller (控制器)](controller/README.md)
+  * [在程式中呼叫控制器](controller/laravel-controller-call-controller.md)
 * [快取 (Cache)](laravel-cache/README.md)
   * [清除快取](laravel-cache/laravel-cache-clear-cache.md)
 * [安全性 (Security)](laravel-security/README.md)
