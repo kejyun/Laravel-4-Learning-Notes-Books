@@ -14,4 +14,4 @@
 
 # 安裝
 
-*[How to Setup Laravel 4 - Tuts+ Code Tutorial](http://code.tutsplus.com/tutorials/how-to-setup-laravel-4--net-28614)
+* [How to Setup Laravel 4 - Tuts+ Code Tutorial](http://code.tutsplus.com/tutorials/how-to-setup-laravel-4--net-28614)
