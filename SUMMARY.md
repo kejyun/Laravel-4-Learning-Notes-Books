@@ -20,6 +20,7 @@
 * [單元測試 (Unit Test)](laravel-test/README.md)
   * [安裝 PHP Unit](laravel-test/laravel-test-install-phpunit.md)
   * [PHP Unit 進階測試](laravel-test/laravel-test-advance-test.md)
+* [排程工作 (CronJob)](laravel-cronjob/laravel-cronjob-README.md)
 * [設計模式 (Design Pattern)](laravel-design-pattern/README.md)
   * [模型 Model](laravel-design-pattern/model/README.md)
     * [在 Laravel 4 使用資源庫 (Repositories) 及服務 (Services) 去降低程式的耦合性](laravel-design-pattern/model/decoupling-your-code-in-laravel-using-repositiories-and-services.md)
