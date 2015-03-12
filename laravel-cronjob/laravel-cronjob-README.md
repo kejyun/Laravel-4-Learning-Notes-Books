@@ -42,7 +42,7 @@ $ crontab -e
 
 ```shell
 # 每天凌晨 4 點及 16 點寄送廣告信
-0 4,16 * * * /usr/bin/php /home/kejyun/laravel4/artisan cronjob:sendCommericalMail
+0 4,16 * * * /usr/bin/php /home/kejyun/laravel4/artisan cronjob:sendCommercialMail
 ```
 
 這裏有一些相關的設定範例可以當作參考：
