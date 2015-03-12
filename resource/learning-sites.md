@@ -9,3 +9,7 @@
 
 # 中文
 * [Laravel 初體驗 - 實作 Blog 系統 | Laravel Dojo](http://www.laravel-dojo.com/courses/laravel4-first-class)
+
+
+# Blog
+* [Fukuball](http://blog.fukuball.com/)
