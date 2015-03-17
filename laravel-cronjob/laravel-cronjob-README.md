@@ -1,5 +1,6 @@
 # 排程工作（Cron Job）
 
+
 我們通常會把一些每小時、每 6 小時、每日、每週、每月等等之類固定時間要做的工作丟到 Linux 系統的 crontab 中去執行，通常像是每日要統計昨天網站的活動資訊做數據分析之類的工作，這類的工作通常會花費比較久的時間
 
 > 若是事件驅動的行為，需要花比較多時間執行的話，我們會使用 Queue 的方式做處理，讓網站的回應時間變快，花時間的工作背景處理
@@ -9,6 +10,34 @@
 > 但是因為這樣寄送 Email 的時間是不確定的時間（我們沒辦法控制使用者什麼時候來註冊）
 
 > 而且寄送 Email 的執行時間又特別的長，所以只能用 Queue 的方式來處理
+
+## 終端機顯示資訊
+
+在使用 Laravel Cronjob 的時候，我們為了知道目前處理的狀況，我們可能會需要在終端機（Terminal）上顯示處理的一些相關訊息，除了一般的 `echo` 外，我們可以這樣做：
+
+```php
+<?php
+class CronjobCommercialEmail extends Command {
+	
+	// ...前略
+	
+	public function fire()
+    {
+        $this->info('info: Display this on the screen');
+        $this->comment('comment: Display this on the screen');
+        $this->question('question: Display this on the screen');
+        $this->error('error: Display this on the screen');
+    }
+}
+```
+
+這樣我們在終端機畫面就會看到像這樣的訊息：
+
+![Laravel Command 顯示資訊](./images/Laravel4-Cronjob-display-info.png)
+
+因為通常 Cronjob 通常會處理很久，我們這樣使用可以快速的幫我們知道目前處理的狀況～
+
+## Linux crontab 系統設定
 
 我們通常會在命令列用 `$ crontab -e` 的方式去編輯排程工作
 
