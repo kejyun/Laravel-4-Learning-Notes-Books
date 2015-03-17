@@ -112,6 +112,5 @@ MAILTO="kejyun@gmail.com"
 * [Practical Laravel – Using Cron Jobs in Laravel](http://maxoffsky.com/code-blog/practical-laravel-using-cron-jobs-in-laravel/)
 * [A visual crontab editor](http://www.corntab.com/pages/crontab-gui)
 * [Command - Laravel 為網頁藝術家創造的 PHP 框架](http://laravel.tw/docs/4.2/commands)
-* [Command - Laravel 為網頁藝術家創造的 PHP 框架](http://laravel.tw/docs/4.2/commands)
 * [Queues vs cron jobs](http://laravel.io/forum/04-30-2014-queues-vs-cron-jobs)
 
