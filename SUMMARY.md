@@ -26,6 +26,7 @@
     * [在 Laravel 4 使用資源庫 (Repositories) 及服務 (Services) 去降低程式的耦合性](laravel-design-pattern/model/decoupling-your-code-in-laravel-using-repositiories-and-services.md)
 * [常見問題](laravel-qanda/README.md)
   * [Session](laravel-qanda/qanda-session.md)
+  * [Namespace](laravel-qanda/qanda-namespace.md)
 * [學習資源](resource/README.md)
   * [官方](resource/official.md)
   * [社群](resource/community-document.md)
