@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](README.md)
+* [介紹](README.md)
 * [安裝](install/README.md)
   * [安裝 Composer](install/install-composer.md)
   * [安裝 Nginx](install/install-nginx-for-laravel.md)
@@ -13,6 +13,8 @@
   * [執行 Migration](migration/process-migration.md)
 * [Controller (控制器)](controller/README.md)
   * [在程式中呼叫控制器](controller/laravel-controller-call-controller.md)
+* [Request (請求與輸入)](request/README.md)
+  * [取代 Input::json() 資料](request/request-replace-input-json-data.md)
 * [快取 (Cache)](laravel-cache/README.md)
   * [清除快取](laravel-cache/laravel-cache-clear-cache.md)
 * [安全性 (Security)](laravel-security/README.md)
