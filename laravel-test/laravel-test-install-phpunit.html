@@ -1,0 +1,861 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=11; IE=10; IE=9; IE=8; IE=7; IE=EDGE" />
+        <title>安裝 PHP Unit | Laravel 4 學習筆記</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.0.2">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    
+    
+    <link rel="next" href="../laravel-test/laravel-test-advance-test.html" />
+    
+    
+    <link rel="prev" href="../laravel-test/index.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <link rel="stylesheet" href="../gitbook/style.css">
+    
+    
+
+        
+    <div class="book" data-level="7.1" data-basepath=".." data-revision="Fri Nov 13 2015 06:43:09 GMT+0800 (CST)">
+    
+
+<div class="book-summary">
+    <div class="book-search">
+        <input type="text" placeholder="Type to search" class="form-control" />
+    </div>
+    <ul class="summary">
+        
+        
+        
+        
+
+        
+
+        
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                        <i class="fa fa-check"></i>
+                        
+                        介紹
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="install/index.html">
+            
+                
+                    <a href="../install/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        安裝
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1" data-path="install/install-composer.html">
+            
+                
+                    <a href="../install/install-composer.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.</b>
+                        
+                        安裝 Composer
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="install/install-nginx-for-laravel.html">
+            
+                
+                    <a href="../install/install-nginx-for-laravel.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.</b>
+                        
+                        安裝 Nginx
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="install/install-laravel4-on-ubuntu-1404.html">
+            
+                
+                    <a href="../install/install-laravel4-on-ubuntu-1404.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.</b>
+                        
+                        安裝 Laravel
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="install/deploy-laravel4-application.html">
+            
+                
+                    <a href="../install/deploy-laravel4-application.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.4.</b>
+                        
+                        佈署 Laravel 程式
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="install/homestead-laravel4-environment.html">
+            
+                
+                    <a href="../install/homestead-laravel4-environment.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.5.</b>
+                        
+                        Homestead 測試環境
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="migration/index.html">
+            
+                
+                    <a href="../migration/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        Migration (資料庫版本控制)
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="migration/add_new_migration_from_artisan.html">
+            
+                
+                    <a href="../migration/add_new_migration_from_artisan.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        新增 Migration
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="migration/access-database-table-by-migration.html">
+            
+                
+                    <a href="../migration/access-database-table-by-migration.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        編輯 Migration
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="migration/process-migration.html">
+            
+                
+                    <a href="../migration/process-migration.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.</b>
+                        
+                        執行 Migration
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="controller/index.html">
+            
+                
+                    <a href="../controller/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        Controller (控制器)
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1" data-path="controller/laravel-controller-call-controller.html">
+            
+                
+                    <a href="../controller/laravel-controller-call-controller.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.</b>
+                        
+                        在程式中呼叫控制器
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="request/index.html">
+            
+                
+                    <a href="../request/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                        Request (請求與輸入)
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1" data-path="request/request-replace-input-json-data.html">
+            
+                
+                    <a href="../request/request-replace-input-json-data.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.</b>
+                        
+                        取代 Input::json() 資料
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5" data-path="laravel-cache/index.html">
+            
+                
+                    <a href="../laravel-cache/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.</b>
+                        
+                        快取 (Cache)
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1" data-path="laravel-cache/laravel-cache-clear-cache.html">
+            
+                
+                    <a href="../laravel-cache/laravel-cache-clear-cache.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.</b>
+                        
+                        清除快取
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6" data-path="laravel-security/index.html">
+            
+                
+                    <a href="../laravel-security/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.</b>
+                        
+                        安全性 (Security)
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.1" data-path="laravel-security/laravel-security-cors.html">
+            
+                
+                    <a href="../laravel-security/laravel-security-cors.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.1.</b>
+                        
+                        CORS (跨來源資源共享)
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="7" data-path="laravel-test/index.html">
+            
+                
+                    <a href="../laravel-test/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.</b>
+                        
+                        單元測試 (Unit Test)
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="7.1" data-path="laravel-test/laravel-test-install-phpunit.html">
+            
+                
+                    <a href="../laravel-test/laravel-test-install-phpunit.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.1.</b>
+                        
+                        安裝 PHP Unit
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2" data-path="laravel-test/laravel-test-advance-test.html">
+            
+                
+                    <a href="../laravel-test/laravel-test-advance-test.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.2.</b>
+                        
+                        PHP Unit 進階測試
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="8" data-path="laravel-cronjob/laravel-cronjob-README.html">
+            
+                
+                    <a href="../laravel-cronjob/laravel-cronjob-README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>8.</b>
+                        
+                        排程工作 (CronJob)
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="9" data-path="laravel-design-pattern/index.html">
+            
+                
+                    <a href="../laravel-design-pattern/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>9.</b>
+                        
+                        設計模式 (Design Pattern)
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="9.1" data-path="laravel-design-pattern/model/index.html">
+            
+                
+                    <a href="../laravel-design-pattern/model/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>9.1.</b>
+                        
+                        模型 Model
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="9.1.1" data-path="laravel-design-pattern/model/decoupling-your-code-in-laravel-using-repositiories-and-services.html">
+            
+                
+                    <a href="../laravel-design-pattern/model/decoupling-your-code-in-laravel-using-repositiories-and-services.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>9.1.1.</b>
+                        
+                        在 Laravel 4 使用資源庫 (Repositories) 及服務 (Services) 去降低程式的耦合性
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="10" data-path="laravel-qanda/index.html">
+            
+                
+                    <a href="../laravel-qanda/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>10.</b>
+                        
+                        常見問題
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="10.1" data-path="laravel-qanda/qanda-session.html">
+            
+                
+                    <a href="../laravel-qanda/qanda-session.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>10.1.</b>
+                        
+                        Session
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="10.2" data-path="laravel-qanda/qanda-namespace.html">
+            
+                
+                    <a href="../laravel-qanda/qanda-namespace.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>10.2.</b>
+                        
+                        Namespace
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="11" data-path="resource/index.html">
+            
+                
+                    <a href="../resource/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>11.</b>
+                        
+                        學習資源
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="11.1" data-path="resource/official.html">
+            
+                
+                    <a href="../resource/official.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>11.1.</b>
+                        
+                        官方
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="11.2" data-path="resource/community-document.html">
+            
+                
+                    <a href="../resource/community-document.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>11.2.</b>
+                        
+                        社群
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="11.3" data-path="resource/laravel-service.html">
+            
+                
+                    <a href="../resource/laravel-service.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>11.3.</b>
+                        
+                        服務工具
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="11.4" data-path="resource/learning-video.html">
+            
+                
+                    <a href="../resource/learning-video.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>11.4.</b>
+                        
+                        教學影片
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="11.5" data-path="resource/learning-sites.html">
+            
+                
+                    <a href="../resource/learning-sites.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>11.5.</b>
+                        
+                        教學網站
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="11.6" data-path="resource/editor-tool.html">
+            
+                
+                    <a href="../resource/editor-tool.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>11.6.</b>
+                        
+                        編輯開發
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="11.7" data-path="resource/laravel-case.html">
+            
+                
+                    <a href="../resource/laravel-case.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>11.7.</b>
+                        
+                        成功案例
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+        
+        <li class="divider"></li>
+        <li>
+            <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                Published with GitBook
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header">
+    <!-- Actions Left -->
+    <a href="#" class="btn pull-left toggle-summary" aria-label="Table of Contents"><i class="fa fa-align-justify"></i></a>
+    <a href="#" class="btn pull-left toggle-search" aria-label="Search"><i class="fa fa-search"></i></a>
+    
+    <div id="font-settings-wrapper" class="dropdown pull-left">
+        <a href="#" class="btn toggle-dropdown" aria-label="Font Settings"><i class="fa fa-font"></i>
+        </a>
+        <div class="dropdown-menu font-settings">
+    <div class="dropdown-caret">
+        <span class="caret-outer"></span>
+        <span class="caret-inner"></span>
+    </div>
+
+    <div class="buttons">
+        <button type="button" id="reduce-font-size" class="button size-2">A</button>
+        <button type="button" id="enlarge-font-size" class="button size-2">A</button>
+    </div>
+
+    <div class="buttons font-family-list">
+        <button type="button" data-font="0" class="button">Serif</button>
+        <button type="button" data-font="1" class="button">Sans</button>
+    </div>
+
+    <div class="buttons color-theme-list">
+        <button type="button" id="color-theme-preview-0" class="button size-3" data-theme="0">White</button>
+        <button type="button" id="color-theme-preview-1" class="button size-3" data-theme="1">Sepia</button>
+        <button type="button" id="color-theme-preview-2" class="button size-3" data-theme="2">Night</button>
+    </div>
+</div>
+
+    </div>
+
+    <!-- Actions Right -->
+    
+    <div class="dropdown pull-right">
+        <a href="#" class="btn toggle-dropdown" aria-label="Share"><i class="fa fa-share-alt"></i>
+        </a>
+        <div class="dropdown-menu font-settings dropdown-left">
+            <div class="dropdown-caret">
+                <span class="caret-outer"></span>
+                <span class="caret-inner"></span>
+            </div>
+            <div class="buttons">
+                <button type="button" data-sharing="twitter" class="button">
+                    Share on Twitter
+                </button>
+                <button type="button" data-sharing="google-plus" class="button">
+                    Share on Google
+                </button>
+                <button type="button" data-sharing="facebook" class="button">
+                    Share on Facebook
+                </button>
+                <button type="button" data-sharing="weibo" class="button">
+                    Share on Weibo
+                </button>
+                <button type="button" data-sharing="instapaper" class="button">
+                    Share on Instapaper
+                </button>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <a href="#" target="_blank" class="btn pull-right google-plus-sharing-link sharing-link" data-sharing="google-plus" aria-label="Google"><i class="fa fa-google-plus"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right facebook-sharing-link sharing-link" data-sharing="facebook" aria-label="Facebook"><i class="fa fa-facebook"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right twitter-sharing-link sharing-link" data-sharing="twitter" aria-label="Twitter"><i class="fa fa-twitter"></i></a>
+    
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >Laravel 4 學習筆記</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h1 id="%E5%AE%89%E8%A3%9D-php-unit">&#x5B89;&#x88DD; PHP Unit</h1>
+<h3 id="%E4%BD%BF%E7%94%A8-composer-%E5%AE%89%E8%A3%9D-phpunit">&#x4F7F;&#x7528; composer &#x5B89;&#x88DD; phpunit</h3>
+<p>&#x53EF;&#x4EE5;&#x5230; <a href="https://packagist.org/" target="_blank">Packagist</a> &#x627E;&#x5230;&#x6700;&#x65B0;&#x7248;&#x672C;&#x7684; <a href="https://packagist.org/packages/phpunit/phpunit" target="_blank">phpunit/phpunit</a> &#x5957;&#x4EF6;&#xFF0C;&#x6216;&#x8005;&#x53EF;&#x4EE5;&#x5B89;&#x88DD;&#x4F60;&#x81EA;&#x5DF1;&#x60F3;&#x8981;&#x57F7;&#x884C;&#x7684;&#x7248;&#x672C;&#x3002;</p>
+<p>&#x5C07;&#x4F60;&#x60F3;&#x8981;&#x5B89;&#x88DD;&#x7684;&#x7248;&#x672C;&#x52A0;&#x5165;&#x5230; <code>composer.json</code> &#x4E2D;&#x7684; <code>require-dev</code> &#x4E2D;</p>
+<blockquote>
+<p>&#x56E0;&#x70BA;&#x6211;&#x53EA;&#x9700;&#x8981;&#x5728;&#x958B;&#x767C;&#x74B0;&#x5883;&#x57F7;&#x884C;&#x9019;&#x4E9B;&#x6E2C;&#x8A66;&#xFF0C;&#x6240;&#x4EE5;&#x4E0D;&#x9700;&#x8981;&#x5728;&#x6B63;&#x5F0F;&#x74B0;&#x5883;&#x4E0A;&#x5B89;&#x88DD;</p>
+</blockquote>
+<pre><code class="lang-json">{
+  <span class="hljs-string">&quot;require-dev&quot;</span>: {
+    <span class="hljs-string">&quot;phpunit/phpunit&quot;</span>: <span class="hljs-string">&quot;4.4.*&quot;</span>
+  }
+}
+</code></pre>
+<h4 id="%E5%AE%89%E8%A3%9D%E9%96%8B%E7%99%BC%E7%92%B0%E5%A2%83%E5%A5%97%E4%BB%B6%E5%A5%97%E4%BB%B6">&#x5B89;&#x88DD;&#x958B;&#x767C;&#x74B0;&#x5883;&#x5957;&#x4EF6;&#x5957;&#x4EF6;</h4>
+<pre><code class="lang-shell">$ composer update --dev
+</code></pre>
+<h3 id="%E5%9F%B7%E8%A1%8C%E7%AC%AC%E4%B8%80%E6%AC%A1%E7%9A%84-laravel-%E6%B8%AC%E8%A9%A6">&#x57F7;&#x884C;&#x7B2C;&#x4E00;&#x6B21;&#x7684; Laravel &#x6E2C;&#x8A66;</h3>
+<p>&#x5230; Laravel &#x8CC7;&#x6599;&#x593E;&#x76EE;&#x9304;&#x4E2D; (&#x76EE;&#x9304;&#x6709;&#x5305;&#x542B; <code>phpunit.xml</code> &#x6A94;&#x6848;)&#xFF0C;&#x8F38;&#x5165; <code>vendor/bin/phpunit</code></p>
+<blockquote>
+<p>&#x6240;&#x6709; PHP Unit &#x6E2C;&#x8A66;&#x76F8;&#x95DC;&#x8A2D;&#x5B9A;&#x7686;&#x5728; phpunit.xml &#x4E2D;&#x8A2D;&#x5B9A;&#xFF0C;&#x7576;&#x57F7;&#x884C; phpunit &#x6E2C;&#x8A66;&#x6307;&#x4EE4;&#x6642;&#xFF0C;&#x5FC5;&#x9808;&#x8981;&#x6709;&#x8A72;&#x8A2D;&#x5B9A;&#x6A94;&#xFF0C; Laravel &#x9810;&#x8A2D;&#x7684;&#x8A2D;&#x5B9A;&#x662F;&#x57F7;&#x884C;&#x6240;&#x6709;&#x5728; <code>./app/tests/</code> &#x76EE;&#x9304;&#x4E0B;&#x7684;&#x6E2C;&#x8A66;</p>
+</blockquote>
+<pre><code class="lang-shell">$ vendor/bin/phpunit
+</code></pre>
+<h3 id="php-unit-%E5%9F%B7%E8%A1%8C%E8%A6%8F%E5%89%87">PHP Unit &#x57F7;&#x884C;&#x898F;&#x5247;</h3>
+<ul>
+<li>&#x82E5;&#x672A;&#x6307;&#x5B9A;&#x6E2C;&#x8A66;&#x6A94;&#xFF0C;&#x5247;&#x6703;&#x57F7;&#x884C;&#x6240;&#x6709;&#x5728;&#x6E2C;&#x8A66;&#x76EE;&#x9304;&#x53CA;&#x5B50;&#x76EE;&#x9304;&#x7684;&#x6240;&#x6709;&#x6E2C;&#x8A66;<ul>
+<li><code>./app/tests/</code></li>
+<li><code>./app/tests/othertest</code></li>
+<li><code>./app/tests/othertest/sometest</code></li>
+</ul>
+</li>
+<li>&#x6A94;&#x6848;&#x540D;&#x7A31;&#x8207;&#x985E;&#x5225;&#x540D;&#x7A31;&#x5FC5;&#x9808;&#x4EE5;Test&#x505A;&#x70BA;&#x7D50;&#x5C3E;<ul>
+<li>e.g. MyTest  =&gt;  MyTest.php</li>
+</ul>
+</li>
+<li>&#x6E2C;&#x8A66;&#x6A94;&#x6848;&#x4E2D;&#x7684;&#x6E2C;&#x8A66;&#x51FD;&#x5F0F;&#x5FC5;&#x9808;&#x8981;&#x4EE5;test&#x70BA;&#x958B;&#x982D;&#x624D;&#x6703;&#x9032;&#x884C;&#x6E2C;&#x8A66;<ul>
+<li>e.g. testMyResult()</li>
+</ul>
+</li>
+</ul>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../laravel-test/index.html" class="navigation navigation-prev " aria-label="Previous page: 單元測試 (Unit Test)"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../laravel-test/laravel-test-advance-test.html" class="navigation navigation-next " aria-label="Next page: PHP Unit 進階測試"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-disqus/plugin.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-ga/plugin.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-livereload/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"fontSettings":{"theme":null,"family":"sans","size":2},"disqus":{"shortName":"kejyun-laravel4-book"},"ga":{"token":"UA-31063691-10","configuration":"auto"}};
+    gitbook.start(config);
+});
+</script>
+
+        <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-31063691-10', 'auto');ga('send', 'pageview');</script>
+    </body>
+    
+</html>
