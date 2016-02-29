@@ -134,6 +134,6 @@ $ vagrant provision
 * [在 Ubuntu 14.04 使用 Homestead 建置 Laravel 4 開發環境](http://blog.kejyun.com/2014/12/Laravel-4-environment-with-Homestead-on-Ubuntu14.04.html)
 * [Say Hello to Laravel Homestead 2.0](https://laracasts.com/lessons/say-hello-to-laravel-homestead-two)
 * [Laravel - Homestead](http://laravel.com/docs/4.2/homestead)
-* [Virtualbox](https://www.blogger.com/)
+* [Virtualbox](https://www.virtualbox.org/)
 * [Vagrant](http://www.vagrantup.com/downloads.html)
 * [Vagrant 常用指令](http://blog.kejyun.com/2014/10/vagrant-command.html)
